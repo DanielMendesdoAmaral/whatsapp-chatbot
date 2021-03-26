@@ -19,9 +19,9 @@ from azure.cognitiveservices.vision.face.models import TrainingStatusType, Perso
 
 
 app = Flask(__name__)
-keyAT = "" 
-keyDF = ""
-endpoint = ""
+keyAT = "631a34cdb85a426a8be8816bb732717f" 
+keyDF = "0a4fc16e686e49d78ee4efececeb02fd"
+endpoint = "https://danielmendesdoamaral.cognitiveservices.azure.com/"
 
 
 def authenticate_client():
